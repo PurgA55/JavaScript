@@ -12,26 +12,25 @@
         let a = Number(prompt('Введите первое число'));
         let b = Number(prompt('Введите второе число'));
 
-        function mathOperation(arg1, arg2, operation) {
-            switch (operation) {
-                case 'sum':
-                    let sum = a + b;
-                    return sum;
-                case 'dif':
-                    let dif = a - b;
-                    return dif;
-                case 'mul':
-                    let mul = a * b;
-                    return mul;
-                case 'div':
-                    let div = a / b;
-                    return div;
-            }
+        function sum(a, b) {
+            let summa = a + b;
+            return summa;
         }
 
+        function dif(a, b) {
+            let dif = a + b;
+            return dif;
+        }
 
-        let result = mathOperation(a, b, prompt("Введиет sum, dif, mul, div"));
-        alert('Результат равен ' + result);
+        function mul(a, b) {
+            let mul = a + b;
+            return mul;
+        }
+
+        function div(a, b) {
+            let div = a + b;
+            return div;
+        }
     </script>
 </body>
 

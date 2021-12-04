@@ -12,25 +12,12 @@
         let a = Number(prompt('Введите первое число'));
         let b = Number(prompt('Введите второе число'));
 
-        function sum(a, b) {
-            let summa = a + b;
-            return summa;
-        }
-
-        function dif(a, b) {
-            let dif = a + b;
-            return dif;
-        }
-
-        function mul(a, b) {
-            let mul = a + b;
-            return mul;
-        }
-
-        function div(a, b) {
-            let div = a + b;
-            return div;
-        }
+		if (a >= 0 && b >= 0) {
+			alert(`Разность чисел ${a - b}`)
+        } else if (a < 0 && b < 0) {
+            alert(`Произведение чисел ${a * b}`)
+        } else if ((a < 0 && b >= 0) || (a >= 0 && b < 0)) {
+            alert(`Сумма чисел ${a + b}`)
     </script>
 </body>
 
